@@ -48,19 +48,20 @@ For example (one of the days):
 +----------------------+
 ```
 
-Also you can type like this:
+Exapmles of using:
 ```bash
-$ rp5-cli Cairo
-# ...
-# Some results for Cairo...
-# ...
-$ rp5-cli The capital of Great Britain
-# ...
-# Some results for London (OMG)...
+$ rp5-cli
+# Some text
+> Cairo
+# Part of the URL
+# Some results for Cairo
+$ rp5-cli
+# Some text
+> The capital of Great Britain
+# Part of the URL
+# Some results for London (OMG)
 # ...
 ```
-But the prompt will appear, again.
-In this case, don't pay any attention, just wait.
 
 You can just press Enter on the prompt (you entered nothing), and there
 will be forecast for the `default_city` (you can change it in `main.py`
